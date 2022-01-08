@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>design on rescape.dev</title>
-    <link>https://rescape.dev/tags/design/</link>
-    <description>Recent content in design on rescape.dev</description>
+    <title>rust on rescape.dev</title>
+    <link>https://rescape.dev/tags/rust/</link>
+    <description>Recent content in rust on rescape.dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rescape.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rescape.dev/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://rescape.dev/posts/20220104-firstpost/</link>
