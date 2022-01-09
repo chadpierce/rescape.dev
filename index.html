@@ -42,7 +42,7 @@
       <p>Rescape is an ascii roguelike written in Go by a hack.</p>
       <div class="app-header-social">
         
-          <a href="https://github.com/chadpierce" target="_blank" rel="noreferrer noopener">
+          <a href="https://github.com/chadpierce/rescape" target="_blank" rel="noreferrer noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
   <title>Github</title>
   <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -65,18 +65,25 @@
       <h1 class ="post-title">YET ANOTHER ROGUELIKE</h1>
     </header>
     <div class="post-content">
-      <pre><code>note: this site is under construction
-</code></pre>
-<p>Welcome to a website about a side-project text based video game called rescape.</p>
-<p>Rescape is a text based <a href="https://en.wikipedia.org/wiki/Roguelike">roguelike</a> based on the initial idea of &ldquo;Nethack, but without the kitchen sink&rdquo;. I am an on-again, off-again roguelike player and like many others I decided to write my own. I go into more detail on this <a href="/posts/20220104-firstpost/">here</a>.</p>
-<p>In short, this is a project I periodically work on whenever I feel the spark to do so. Someday I hope to get to the point where it is a playable and fun game. I made this website to chronicle the design and development of the game and a how a simpleton like myself manages to hack together code that works well enough, tackle super complicated problems like making the simplest pathfinding algorithms work and things like that. You&rsquo;ll find those posts <a href="/posts">here</a></p>
-<h1 id="some-things-about-the-game">Some things about the game</h1>
+      <h4 id="welcome-to-a-website-about-a-side-project-video-game-called-rescape">Welcome to a website about a side-project video game called Rescape.</h4>
+<p>Rescape is a text-based <a href="https://en.wikipedia.org/wiki/Roguelike">roguelike</a>. The goal is to bridge the gap between the original <em>Rogue</em> and more &ldquo;modern&rdquo; and complex games like <em>Nethack</em> and <em>Dungeon Crawl Stone Soup</em>. I am an on-again, off-again roguelike player and like many others I decided to write my own. I go into more detail on this <a href="/posts/20220109-firstpost/">here</a>.</p>
+<p>In short, this is a project I periodically work on whenever I get the urge. Someday I hope to reach a state where it is a playable and fun game. I made this website to chronicle its design and development and explain how I manage to hack together code that basically works, how I tackle super complicated problems like making the simplest pathfinding algorithms work, and other things along those lines. You&rsquo;ll find those posts <a href="/posts">here.</a></p>
+<h2 id="some-notes-on-the-game">Some notes on the game</h2>
 <ul>
-<li>rescape is an ascii-based <a href="https://en.wikipedia.org/wiki/Roguelike">roguelike</a> written in Go</li>
-<li>the initial idea for rescape was &ldquo;Nethack, but without the kitchen sink&rdquo; - meaning turn based dungeon crawler without all of the spoilers and secrets</li>
-<li>as of this writing rescape is far from finished</li>
+<li>Rescape is an ascii roguelike written in Go</li>
+<li>The initial idea for Rescape was &ldquo;<em>Nethack, but without the kitchen sink</em>&rdquo; - meaning a turn based dungeon crawler without all of the spoilers and secrets, and that doesn&rsquo;t take several days and a wiki to finish</li>
+<li>As of this writing Rescape is far from finished (or fully designed)</li>
 <li>I am not a professional software developer and probably do not write good and efficient code</li>
+<li>Use of external libraries and other people&rsquo;s code is kept to a minimum. Currently the only external package is used for i/o (<a href="https://github.com/gdamore/tcell">tcell</a>). This is similar to the curses library.</li>
 </ul>
+<h2 id="source-code">Source Code</h2>
+<p>The source code is not yet committed, but I&rsquo;ve created a public GitHub repository here: <a href="https://github.com/chadpierce/rescape">https://github.com/chadpierce/rescape</a></p>
+<p>The original Rust POC code is available here: <a href="https://github.com/chadpierce/rescape-rust">https://github.com/chadpierce/rescape-rust</a></p>
+<pre><code>note: The Rust code no longer appears to compile. 
+  I'd like to fix this and get it working to see
+  the state it was in when I stopped working on it.
+  I'll then write a post on my experience learning
+  and writing that version of the code. </code></pre>
 
     </div>
     <div class="post-footer">
