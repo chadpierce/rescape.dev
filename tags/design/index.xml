@@ -5,7 +5,16 @@
     <link>https://rescape.dev/tags/design/</link>
     <description>Recent content in design on rescape.dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rescape.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://rescape.dev/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catching Up</title>
+      <link>https://rescape.dev/posts/20220117-catchingup/</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://rescape.dev/posts/20220117-catchingup/</guid>
+      <description>Trying to Remember What I&amp;rsquo;ve Done After looking over the code where I left it a few months ago it&amp;rsquo;s not in a super horrible state. Much of what I&amp;rsquo;ve done to this point was getting a game mechanic to work and then quickly moving on to the next task. This left a lot of sloppy and hacked together code. In most other projects that is typically where I&amp;rsquo;ll leave it, but for this project I&amp;rsquo;d like to clean things up some.</description>
+    </item>
+    
     <item>
       <title>First Post</title>
       <link>https://rescape.dev/posts/20220109-firstpost/</link>

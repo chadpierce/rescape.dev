@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>Catching Up // rescape.dev</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.80.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Chad Pierce" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://rescape.dev/css/main.min.03483347e5c1782535880a350dea96a72f9fa67988016756c39e23636847e43a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Catching Up"/>
+<meta name="twitter:description" content="Trying to Remember What I&rsquo;ve Done After looking over the code where I left it a few months ago it&rsquo;s not in a super horrible state. Much of what I&rsquo;ve done to this point was getting a game mechanic to work and then quickly moving on to the next task. This left a lot of sloppy and hacked together code. In most other projects that is typically where I&rsquo;ll leave it, but for this project I&rsquo;d like to clean things up some."/>
+
+    <meta property="og:title" content="Catching Up" />
+<meta property="og:description" content="Trying to Remember What I&rsquo;ve Done After looking over the code where I left it a few months ago it&rsquo;s not in a super horrible state. Much of what I&rsquo;ve done to this point was getting a game mechanic to work and then quickly moving on to the next task. This left a lot of sloppy and hacked together code. In most other projects that is typically where I&rsquo;ll leave it, but for this project I&rsquo;d like to clean things up some." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rescape.dev/posts/20220117-catchingup/" />
+<meta property="article:published_time" content="2022-01-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-01-17T00:00:00+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://rescape.dev"><img class="app-header-avatar" src="/avatar3.png" alt="Chad Pierce" /></a>
+      <h1>rescape.dev</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/posts">Posts</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/about/">About</a>
+      </nav>
+      <p>Rescape is an ascii roguelike written in Go by a hack.</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/chadpierce/rescape" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/_chadpi" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Catching Up</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jan 17, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://rescape.dev/tags/go/">go</a>
+              <a class="tag" href="https://rescape.dev/tags/design/">design</a>
+              <a class="tag" href="https://rescape.dev/tags/development/">development</a>
+              <a class="tag" href="https://rescape.dev/tags/release/">release</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h2 id="trying-to-remember-what-ive-done">Trying to Remember What I&rsquo;ve Done</h2>
+<p>After looking over the code where I left it a few months ago it&rsquo;s not in a super horrible state. Much of what I&rsquo;ve done to this point was getting a game mechanic to work and then quickly moving on to the next task. This left a lot of sloppy and hacked together code. In most other projects that is typically where I&rsquo;ll leave it, but for this project I&rsquo;d like to clean things up some. Especially where it will make life easier down the line.</p>
+<p>Early on in the project I created a loose roadmap. Technically I think I&rsquo;ve accomplished everything for this version&hellip; but I&rsquo;d like to improve some of these bullet points. The way objects and actions are handled will be first up (as mentioned below). I&rsquo;d also like to fix some path-finding bugs.</p>
+<pre><code>## 0.1.0
+### basic playable poc
+
+- game design (somewhat)
+- struct design
+- basic i/o
+- basic level generation
+- mob generation
+- mobs with basic AI 
+- basic melee combat
+- basic fov
+- item generation
+- basic inventory management
+</code></pre><h2 id="next-steps">Next Steps</h2>
+<p>I&rsquo;ve made a snapshot of the code and called it release v0.0.1.</p>
+<p>Moving forward, the first things I&rsquo;d like to focus on are re-working how objects are stored in the code and interacted with. Items such as weapons, scrolls, or potions are especially unwieldy at the moment. I think what I&rsquo;d like to do is make everything an action. So swinging a sword or casting a spell are generic actions. But each object will have an array of their own actions that will be called when equipped or used. Maybe each object will have a &ldquo;<em>actionUse</em>&rdquo; and &ldquo;<em>actionEquip</em>&rdquo; attribute, for example.</p>
+<p>The end goal is to make the addition and tweaking of objects easier to manage. Currently each weapon has to be added to the following array, two &ldquo;generic&rdquo; functions, and then two item specific functions. This is not easily scalable.</p>
+<pre><code>itemName array - a list of every item
+makeItem function - a function that encapsulates each separate make item function
+useWeapon function - a function that encapsulates each separate use item function
+makeWeaponName function - creates the object
+useWeaponName function  - called when the object is used
+</code></pre><p>Basically what I&rsquo;d like to do is remove the need for the item specific functions. The same holds for spells, mobs, and other game mechanics. I think this seems like a worthwhile task to get back into the project.</p>
+<h2 id="pre-prod-release-version-001">Pre-prod Release Version 0.0.1</h2>
+<p>The public github repo has been created and is here:
+<a href="https://github.com/chadpierce/rescape">https://github.com/chadpierce/rescape</a></p>
+<p>I tagged a <a href="https://github.com/chadpierce/rescape/releases/tag/v0.0.1">v0.0.1 release</a> to keep a snapshot of the game at this stage of development. I&rsquo;ve included several binaries and the source code.</p>
+<h3 id="release-notes">Release Notes</h3>
+<p>Rescape is in early design and development. This release is a mostly working POC with some poorly written code that will continue to evolve.</p>
+<p>Version Notes:</p>
+<ul>
+<li>You may need to resize your terminal and/or font to see the entire game field, status area, and messages (shown in screenshot below)</li>
+<li>Vi keys along with arrow keys are supported for movement. Additional commands can be found here: <a href="https://raw.githubusercontent.com/chadpierce/rescape/main/docs/help.md">https://raw.githubusercontent.com/chadpierce/rescape/main/docs/help.md</a></li>
+<li>You currently start each floor with a test potion (MegaGood) that will make your character more powerful in most ways</li>
+<li>You can move freely up and down stairs regardless of where you are on the floor (you don&rsquo;t need to be standing on a staircase)</li>
+<li>Enter a &ldquo;ground floor&rdquo; test level by entering &ldquo;D&rdquo; - here you&rsquo;ll see a red dragon with bad pathing</li>
+<li>Upon death you&rsquo;ll still be able to move around</li>
+<li>There is currently no game or objective. Combat is also not balanced.</li>
+<li>Press ESC to exit the game</li>
+<li>In MacOS, built-in antivirus measures may prevent the binary from running. The easiest way to workaround this is right click the file and launch it with the Terminal.app at first launch. You can then allow the binary to run. There&rsquo;s likely an easier way to allow it to run.</li>
+<li>In Windows, Defender may yell at you. You&rsquo;ll need to bypass this protection as well.</li>
+</ul>
+<p>Screenshot:</p>
+<p><img src="https://user-images.githubusercontent.com/30181837/149818074-1f07e22e-94d9-4bbd-b1c8-25978b9e5432.png" alt="Rescape v0.0.1 Screenshot"></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

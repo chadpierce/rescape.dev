@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rescape.dev/posts/20220117-catchingup/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rescape.dev/tags/design/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rescape.dev/tags/development/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rescape.dev/posts/20220109-firstpost/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://rescape.dev/tags/go/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rescape.dev/posts/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rescape.dev/tags/release/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rescape.dev/tags/</loc>
+    <lastmod>2022-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rescape.dev/posts/20220109-firstpost/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://rescape.dev/posts/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://rescape.dev/tags/rust/</loc>
-    <lastmod>2022-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rescape.dev/tags/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url>
   
